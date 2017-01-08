@@ -8,8 +8,8 @@ Another part is the prediction part.It load the image to be recognized and the t
 
 >python predict_cnn.py --image data/imageName 
 
-The training dataset can be MNIST or other dataset.
+The training dataset can be MNIST or other dataset on the internet.
 
-simple test result:
+Simple test result:
 
 ![Aaron Swartz](https://github.com/nicholas-tien/digits-recognition-using-cnn/blob/master/data/test_result.png)
