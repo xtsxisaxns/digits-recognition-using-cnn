@@ -7,3 +7,9 @@ This is a digits recognition program using cnn.It contains two parts.First part 
 Another part is the prediction part.It load the image to be recognized and the trained model.To use it,type following command:
 
 >python predict_cnn.py --image data/imageName 
+
+The training dataset can be MNIST or other dataset.
+
+simple test result:
+
+![Aaron Swartz](https://github.com/nicholas-tien/digits-recognition-using-cnn/blob/master/data/test_result.png)
