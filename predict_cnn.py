@@ -158,4 +158,5 @@ with tf.Session() as sess:
 
 
 cv2.imshow("image",image)
+cv2.imwrite("data/test_result.png",image)
 cv2.waitKey(0)

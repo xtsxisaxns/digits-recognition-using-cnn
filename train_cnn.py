@@ -38,7 +38,7 @@ target = target[indexShuffle]
 
 train_dataset, train_labels = reformat(data[:30000,:,:], target[:30000])
 valid_dataset, valid_labels = reformat(data[30001:35000,:,:], target[30001:35000])
-test_dataset, test_labels = reformat(data[35000:,:,:], target[35000:])
+test_dataset, test_labels = reformat(data[35001:,:,:], target[35001:])
 print('Training set', train_dataset.shape, train_labels.shape)
 print('Validation set', valid_dataset.shape, valid_labels.shape)
 print('Test set', test_dataset.shape, test_labels.shape)
@@ -147,7 +147,7 @@ with graph.as_default():
 # num_steps = 1001
 #num_epochs * train_size) // BATCH_SIZE, E.g:10*200000//128
 # num_steps = 15001
-num_steps = 10000
+num_steps = 8000
 
 # record loss and accuracy
 train_loss_list = []
